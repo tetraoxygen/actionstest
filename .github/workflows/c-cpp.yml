@@ -26,4 +26,4 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
     - name: Build
-      run: xcodebuild
+      run: make
