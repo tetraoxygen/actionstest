@@ -1,5 +1,5 @@
 ifeq ($(OS),Windows_NT)
-	CC=cl
+	CC=g++
 else
 	CC=clang++
 endif
