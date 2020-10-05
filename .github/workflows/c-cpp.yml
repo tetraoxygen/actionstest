@@ -19,7 +19,7 @@ jobs:
       uses: actions/checkout@v1
     - name: Install LLVM Because Windows is Dumb
       run: curl -fsSL -o LLVM9.exe https://releases.llvm.org/9.0.0/LLVM-9.0.0-win64.exe 
-           7z x LLVM9.exe -y -o"C:/Program Files/LLVM"
+           7z x LLVM9.exe -o "C:/Program Files/LLVM"
     - name: Build
       run: make
 
