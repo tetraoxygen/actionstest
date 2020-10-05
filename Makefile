@@ -1,2 +1,4 @@
+CC=clang++
+CARGS= --output hello
 main: main.cpp
-	clang++ main.cpp
+	$(CC) $(CARGS) main.cpp
