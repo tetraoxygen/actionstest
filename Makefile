@@ -1,3 +1,2 @@
-hello:  progA1.o
-        clang++ main.cpp
-        mv a.out hello
+main: main.cpp
+	clang++ main.cpp --output hello
