@@ -1,2 +1,2 @@
 main: main.cpp
-	g++ main.cpp --output hello
+	clang++ main.cpp --output hello
